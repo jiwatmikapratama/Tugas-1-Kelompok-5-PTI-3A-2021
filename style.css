@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Header CSS */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2.5px solid #f47b31;
+    /* padding: 1%; */
+    position: relative;
+}
+
+header .kiri img {
+    width: 120px;
+    height: 120px;
+    margin: 0 20px;
+}
+
+.garis {
+    position: absolute;
+    border-right: 2.5px solid #f47b31;
+    padding: 137px;
+    margin: 0 40%;
+}
+
+header .kanan {
+    color: #fff;
+    margin: 1%;
+    background-color: #00519c;
+    padding: 7%;
+    border-radius: 20px;
+}
+/* END Header */
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.satu, .dua, .tiga, .empat {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 3%;
+}
+
+.content .caption {
+    display: none;
+}
+
+.content .satu:hover .caption  {
+    display: block;
+}
+
+.content .dua:hover .caption  {
+    display: block;
+}
+
+.content .tiga:hover .caption  {
+    display: block;
+}
+
+.content .empat:hover .caption  {
+    display: block;
+}
