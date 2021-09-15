@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Azeret Mono', monospace;
+}
+
+body {
+    background-image: url(img/bg/3040791.jpg);
+}
+
+
+/* Header CSS */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2.5px solid #f47b31;
+    position: relative;
+}
+
+header .kiri img {
+    width: 120px;
+    height: 120px;
+    margin: 0 20px;
+}
+
+header .background {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -999;
+}
+
+
+header .kanan {
+    color: #fff;
+    margin: 1%;
+    background-color: #00519c;
+    padding: 7%;
+    border-radius: 20px;
+}
+/* END Header */
+
+/* CONTENT */
+.judul {
+    text-align: center;
+    padding: 2% 0;
+    font-weight: bold;
+}
+
+.content {
+    font-weight: bold;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.satu, .dua, .tiga, .empat {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.content .caption {
+    margin: 0 20px;
+}
+
+.sidebar-kiri .satu, .sidebar-kiri .dua {
+    margin: 10% 0;
+}
+
+.sidebar-kanan .tiga, .sidebar-kiri .empat {
+    margin: 10% 0;
+}
+
+.content .caption {
+    display: none;
+}
+
+.content .satu:hover .caption  {
+    display: block;
+}
+
+.content .dua:hover .caption  {
+    display: block;
+}
+
+.content .tiga:hover .caption  {
+    display: block;
+}
+
+.content .empat:hover .caption  {
+    display: block;
+}
+
+.sidebar-kiri .sosmed a, .sidebar-kanan .sosmed a {
+    text-decoration: none;
+    color: #000;
+}
+
+.content .gambar a img {
+    width: 320px;
+    height: 320px;
+    border-radius: 5%;
+}
+/* END CONTENT */
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 3% 0;
+}
+/* END Footer */
+
